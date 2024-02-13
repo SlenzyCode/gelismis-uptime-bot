@@ -1,0 +1,25 @@
+{
+  "name": "slenzycode",
+  "version": "0.0.1",
+  "description": "slenzycode",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "croxydb": "^0.0.22",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "gamedig": "^4.3.1",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7",
+    "raven_text": "^0.0.2",
+    "slenzy.db": "^0.0.20",
+    "utilscord": "^1.6.0",
+    "wio.db": "^4.0.22"
+  },
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "slenzycode",
+  "license": "MIT"
+}
