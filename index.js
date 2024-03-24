@@ -19,7 +19,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://slenzyycode:cDkdgXdRPe@cluster0.idagmob.mongodb.net/").then(() => {
+mongoose.connect("x").then(() => {
   console.log("Mongo bağlandı.")
 });
 const config = require("./config.json");
